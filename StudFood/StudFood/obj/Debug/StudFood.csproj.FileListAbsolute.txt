@@ -1,0 +1,17 @@
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.csprojResolveAssemblyReference.cache
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.App.xaml.g.cs
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.RecipePage.xaml.g.cs
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.MainPage.xaml.g.cs
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.ListPage.xaml.g.cs
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\StudFood.dll
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\StudFood.pdb
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Core.dll
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Platform.dll
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Core.pdb
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Core.xml
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.dll
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.pdb

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-QJFUR8N</Machine>
+    <WindowsUser>jeeug</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>08818d2f-9cfa-47b9-94e2-e2953fd4bdb9</PackageIdentityName>
+    <PackageIdentityPublisher>CN=jeeug</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\VisualProjects\StudFood\StudFood\StudFood.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>1BFF59A590D17EBB5AD34412FC2557622CE7DF568D679F13BE28A4F441C56EBC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>08818d2f-9cfa-47b9-94e2-e2953fd4bdb9_1.0.0.0_neutral__rnngpkj6krq4t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>08818d2f-9cfa-47b9-94e2-e2953fd4bdb9_rnngpkj6krq4t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>08818d2f-9cfa-47b9-94e2-e2953fd4bdb9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jeeug</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-10T14:32:18.474</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\StudFood.Windows.exe">
+      <PackagePath>StudFood.Windows.exe</PackagePath>
+      <Modified>2017-04-10T14:32:17.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\StudFood.dll">
+      <PackagePath>StudFood.dll</PackagePath>
+      <Modified>2017-04-10T14:32:15.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T13:07:58.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T13:07:58.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T13:07:58.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T13:07:58.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\StudFood.Windows.xr.xml">
+      <PackagePath>StudFood.Windows.xr.xml</PackagePath>
+      <Modified>2017-04-10T14:32:17.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2017-04-10T14:32:17.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2017-04-10T14:32:17.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2017-03-29T10:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-10T14:32:17.958</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
