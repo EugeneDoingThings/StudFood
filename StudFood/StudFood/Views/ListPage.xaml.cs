@@ -14,7 +14,7 @@ namespace StudFood.Views
         public ListPage()
         {
             InitializeComponent();
-            this.BindingContext = new ListPageViewModel();
+            this.BindingContext = new ListPageViewModel(this);
 
         }
     }

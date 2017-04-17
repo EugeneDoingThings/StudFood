@@ -624,8 +624,3 @@ namespace StudFood.Windows.StudFood_Windows_XamlTypeInfo
 }
 
 
-
-
-
-
-

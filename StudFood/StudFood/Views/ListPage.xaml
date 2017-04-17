@@ -29,8 +29,7 @@
               <ViewCell.View>
                 <StackLayout Orientation="Horizontal">
                   <Switch IsToggled="{Binding Pick}" HorizontalOptions="EndAndExpand"/>
-                  <Label Text="{Binding Name}"
-                         HorizontalOptions="FillAndExpand"></Label>
+                  <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"></Label>
                 </StackLayout>
               </ViewCell.View>
             </ViewCell>

@@ -34,11 +34,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.Windows\bin\Debug\StudFood.Windows.exe">
       <PackagePath>StudFood.Windows.exe</PackagePath>
-      <Modified>2017-04-17T10:25:51.211</Modified>
+      <Modified>2017-04-17T11:58:14.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\StudFood.dll">
       <PackagePath>StudFood.dll</PackagePath>
-      <Modified>2017-04-17T10:25:50.419</Modified>
+      <Modified>2017-04-17T11:58:09.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\packages\Xamarin.Forms.2.3.4.224\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
