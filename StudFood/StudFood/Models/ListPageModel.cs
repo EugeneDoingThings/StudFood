@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace StudFood.Models
 {
-    class ListPageModel
+    public class ListPageModel
     {
-    
+        
+            public string Name { get; set; }
+            public bool Pick { get; set; }
+        
 
     }
 }
