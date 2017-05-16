@@ -1,2 +1,0 @@
-D:\VisualProjects\StudFood\StudFood\StudFood.Windows\StudFood.Windows.csproj;neutral
-D:\VisualProjects\StudFood\StudFood\StudFood\StudFood.csproj;neutral

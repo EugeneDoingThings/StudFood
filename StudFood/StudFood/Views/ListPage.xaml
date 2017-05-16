@@ -2,42 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StudFood.Views.ListPage"
+             xmlns:Box="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls"
              Title="Продукты">
-  
-  <!--<StackLayout VerticalOptions="Center">
 
-    <Label Text="Продукты" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"></Label>
-    <Label Text="Хлеб" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Сыр" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Гречка" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Картофель" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Молоко" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Рис" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Яйца" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Мука" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Хлопья" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Label Text="Сахар" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"></Label>
-    <Button Text="Далее" Command="{Binding NextCommand}" />
-
- 
-  </StackLayout>-->
     <StackLayout>
-      <ListView ItemsSource="{Binding Tasks}" RowHeight="50" HasUnevenRows="True">
-        <ListView.ItemTemplate>
-          <DataTemplate>
-            <ViewCell>
-              <ViewCell.View>
-                <StackLayout Orientation="Horizontal">
-                  <Switch IsToggled="{Binding Pick}" HorizontalOptions="EndAndExpand"/>
-                  <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"></Label>
-                </StackLayout>
-              </ViewCell.View>
-            </ViewCell>
-          </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
-      <Button Text="Далее" Command="{Binding NextCommand}" VerticalOptions="End"></Button>
+        <ListView ItemsSource="{Binding Products}" RowHeight="50" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="FillAndExpand">
+                                <Box:Checkbox Checked="{Binding Pick}"/>
+                                <Label Text="{Binding Name}" HorizontalOptions="CenterAndExpand"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Далее" Command="{Binding NextCommand}" VerticalOptions="End"></Button>
     </StackLayout>
-
-
 </ContentPage>

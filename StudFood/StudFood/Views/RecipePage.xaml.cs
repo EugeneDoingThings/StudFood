@@ -1,4 +1,5 @@
-﻿using StudFood.ViewModels;
+﻿using StudFood.Models;
+using StudFood.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,10 @@ namespace StudFood.Views
 {
     public partial class RecipePage : ContentPage
     {
-        public RecipePage()
+        public RecipePage(IEnumerable<ListPageModel> ingr)
         {
             InitializeComponent();
-            this.BindingContext = new RecipeViewModel();
+            this.BindingContext = new RecipeViewModel(ingr);
         }
     }
 }

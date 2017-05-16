@@ -14,6 +14,7 @@ namespace StudFood.Views
         public MainPage()
         {
             InitializeComponent();
+            Detail = new NavigationPage(new ListPage());
             this.BindingContext = new MainPageViewModel(this);
         }
         private void  Menu_ItemClicked(object sender, EventArgs e)
@@ -22,15 +23,16 @@ namespace StudFood.Views
             {
                 case "Рецепты":
                     {
-                        Detail = new RecipePage();
+                        Detail = new NavigationPage(new RecipePage(null));
                         break;
                     }
                 case "Выбрать из продуктов":
                     {
-                        Detail = new ListPage(); 
+                        Detail = new NavigationPage(new ListPage()); 
                         break;
                     }
             }
+            IsPresented = false;
             
         }
 

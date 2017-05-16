@@ -13,7 +13,7 @@ namespace StudFood.ViewModels
 {
     class ListPageViewModel
     {
-        public ObservableCollection<ListPageModel> Tasks { get; set; } = new ObservableCollection<ListPageModel>
+        public ObservableCollection<ListPageModel> Products { get; set; } = new ObservableCollection<ListPageModel>
         {
             new ListPageModel {Name = "Гречка",Pick = false,},
             new ListPageModel {Name = "Рис",Pick = false,},
@@ -22,6 +22,20 @@ namespace StudFood.ViewModels
             new ListPageModel {Name = "Картофель",Pick = false,},
             new ListPageModel {Name = "Макароны",Pick = false,},
             new ListPageModel {Name = "Курица",Pick = false,},
+            new ListPageModel {Name = "Колбаса",Pick = false,},
+            new ListPageModel {Name = "Морковь",Pick = false,},
+            new ListPageModel {Name = "Мясо",Pick = false,},
+            new ListPageModel {Name = "Рыба",Pick = false,},
+            new ListPageModel {Name = "Рис",Pick = false,},
+            new ListPageModel {Name = "Чечевица",Pick = false,},
+            new ListPageModel {Name = "Гречка",Pick = false,},
+            new ListPageModel {Name = "Зелень",Pick = false,},
+            new ListPageModel {Name = "Перец",Pick = false,},
+            new ListPageModel {Name = "Томаты",Pick = false,},
+            new ListPageModel {Name = "Фарш",Pick = false,},
+            new ListPageModel {Name = "Масло",Pick = false,},
+            new ListPageModel {Name = "Крабовые палочки",Pick = false,},
+            new ListPageModel {Name = "Яблоки",Pick = false,},
         };
         private Page _page;
         public ICommand NextCommand { get; set; }
@@ -32,10 +46,16 @@ namespace StudFood.ViewModels
             NextCommand = new Command(OpenRecipes);
         }
 
+       
+
         private async void OpenRecipes()
         {
-            await _page.Navigation.PushAsync(new RecipePage());
+
+            var m = Products.Where(x => x.Pick);
+            await _page.Navigation.PushAsync(new RecipePage(m));
+            
         }
 
+        
     }
 }

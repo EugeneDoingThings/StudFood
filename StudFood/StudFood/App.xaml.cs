@@ -1,4 +1,6 @@
-﻿using StudFood.Views;
+﻿using StudFood.Database;
+using StudFood.Models;
+using StudFood.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +16,36 @@ namespace StudFood
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
-        }
+            MainPage = new MainPage();
 
+            var d = Database;
+        }
+  
+        static RecipeDatabase database;
+        public static RecipeDatabase Database
+        {
+            get
+            {
+
+                //string databaseName = Recipe.App.DATABASE_NAME;
+                //if (await ApplicationData.Current.LocalFolder.TryGetItemAsync(databaseName) == null)
+                //{
+                //    StorageFile databaseFile =
+                //        await Package.Current.InstalledLocation.GetFileAsync($"Recipes.db}");
+                //    await databaseFile.CopyAsync(ApplicationData.Current.LocalFolder);
+                //}
+
+                if (database == null)
+                {
+                    var fileHelper = DependencyService.Get<IFileHelper>();
+                    database = new RecipeDatabase(fileHelper.GetLocalFilePath("Recipes.db"));
+                }
+                return database;
+            }
+        }
         protected override void OnStart()
         {
-            // Handle when your app starts
+          
         }
 
         protected override void OnSleep()

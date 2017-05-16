@@ -1,0 +1,2 @@
+D:\VisualProjects\StudFood\StudFood\StudFood.UWP\StudFood.UWP.csproj;x86
+D:\VisualProjects\StudFood\StudFood\StudFood\StudFood.csproj;neutral
