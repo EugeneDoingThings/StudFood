@@ -40,6 +40,8 @@ namespace StudFood.ViewModels
         private Page _page;
         public ICommand NextCommand { get; set; }
 
+     
+
         public ListPageViewModel(Page page)
         {
             _page = page;
@@ -50,12 +52,10 @@ namespace StudFood.ViewModels
 
         private async void OpenRecipes()
         {
-
             var m = Products.Where(x => x.Pick);
-            await _page.Navigation.PushAsync(new RecipePage(m));
-            
+            await _page.Navigation.PushAsync(new RecipePage(m));            
         }
+      
 
-        
     }
 }

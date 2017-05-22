@@ -12,10 +12,21 @@ namespace StudFood.Views
 {
     public partial class RecipePage : ContentPage
     {
+        private RecipeViewModel _viewModel;
         public RecipePage(IEnumerable<ListPageModel> ingr)
         {
             InitializeComponent();
-            this.BindingContext = new RecipeViewModel(ingr);
+            _viewModel  = new RecipeViewModel(ingr, this);
+            this.BindingContext = _viewModel;
+        }
+
+        private void ListView_OnItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            _viewModel.OpenDetail.Execute(e.Item);
         }
     }
 }
+
+
+
+

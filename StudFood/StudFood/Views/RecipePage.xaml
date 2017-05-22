@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StudFood.Views.RecipePage"
              Title="Рецепты">
-  <ListView ItemsSource="{Binding Recipes}" HasUnevenRows="True">
+    <ListView ItemsSource="{Binding Recipes}"  ItemTapped="ListView_OnItemTapped" HasUnevenRows="True">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
@@ -13,7 +13,7 @@
                      HeightRequest="100"
                      WidthRequest="100"/>
               <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"/>
-              <Label Text="{Binding Products}" HorizontalOptions="EndAndExpand"/>
+              <Label Text="{Binding Ingredients, StringFormat='Ингридиенты: {0}'}"  HorizontalOptions="EndAndExpand"/>
             </StackLayout>
           </ViewCell.View>
         </ViewCell>

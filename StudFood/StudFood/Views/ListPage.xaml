@@ -4,7 +4,7 @@
              x:Class="StudFood.Views.ListPage"
              xmlns:Box="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls"
              Title="Продукты">
-
+    
     <StackLayout>
         <ListView ItemsSource="{Binding Products}" RowHeight="50" HasUnevenRows="True">
             <ListView.ItemTemplate>

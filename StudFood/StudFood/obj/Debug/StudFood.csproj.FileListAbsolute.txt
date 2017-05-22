@@ -21,3 +21,5 @@ D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.MainPage.x
 D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.ListPage.xaml.g.cs
 D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.dll
 D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.pdb
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.csprojResolveAssemblyReference.cache
+D:\VisualProjects\StudFood\StudFood\StudFood\obj\Debug\StudFood.Views.DetailedRecipePage.xaml.g.cs

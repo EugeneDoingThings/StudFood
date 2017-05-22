@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\VisualProjects\StudFood\StudFood\StudFood.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-15T14:45:23.382</Modified>
+      <Modified>2017-05-22T14:04:04.173</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.UWP\bin\x86\Debug\StudFood.UWP.exe">
       <PackagePath>entrypoint\StudFood.UWP.exe</PackagePath>
-      <Modified>2017-05-15T14:45:22.640</Modified>
+      <Modified>2017-05-22T14:04:03.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jeeug\.nuget\packages\Messier16.Forms.Controls\0.4.0\lib\UAP10\Messier16.Forms.Controls.dll">
       <PackagePath>Messier16.Forms.Controls.dll</PackagePath>
@@ -550,11 +550,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood\bin\Debug\StudFood.dll">
       <PackagePath>StudFood.dll</PackagePath>
-      <Modified>2017-05-15T14:45:20.343</Modified>
+      <Modified>2017-05-22T14:04:02.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.UWP\Recipes.db">
       <PackagePath>Recipes.db</PackagePath>
-      <Modified>2017-05-15T14:40:55.102</Modified>
+      <Modified>2017-05-22T13:15:46.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -713,7 +713,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VisualProjects\StudFood\StudFood\StudFood.UWP\bin\x86\Debug\Core\StudFood.UWP.exe">
       <PackagePath>StudFood.UWP.exe</PackagePath>
-      <Modified>2017-05-15T14:45:23.382</Modified>
+      <Modified>2017-05-22T14:04:04.169</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

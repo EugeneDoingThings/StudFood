@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudFood.Views.DetailedRecipePage"
+             Title="{Binding DetailedRecipe.Name}">
+  <ScrollView>
+    <StackLayout Padding="10">
+
+            <Image Source="{Binding DetailedRecipe.Image}"
+                     HeightRequest="100"
+                     WidthRequest="100"/>
+            <Label Text="{Binding DetailedRecipe.Description}"/>
+            <Label Text="{Binding DetailedRecipe.Ingredients }"/>
+            <Label Text="{Binding DetailedRecipe.Ingredients, StringFormat='Ингридиенты: {0}'}" />
+        </StackLayout>
+  </ScrollView>
+</ContentPage>
