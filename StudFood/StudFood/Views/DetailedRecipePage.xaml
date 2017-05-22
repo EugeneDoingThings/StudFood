@@ -10,7 +10,6 @@
                      HeightRequest="100"
                      WidthRequest="100"/>
             <Label Text="{Binding DetailedRecipe.Description}"/>
-            <Label Text="{Binding DetailedRecipe.Ingredients }"/>
             <Label Text="{Binding DetailedRecipe.Ingredients, StringFormat='Ингридиенты: {0}'}" />
         </StackLayout>
   </ScrollView>
